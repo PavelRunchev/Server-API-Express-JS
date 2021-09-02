@@ -1,0 +1,34 @@
+{
+	"name": "server-api",
+	"version": "1.0.0",
+	"description": "Server API",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"heroku-postbuild": "npm run build"
+	},
+	"keywords": [
+		"nodejs",
+		"expressjs"
+	],
+	"author": "raiders",
+	"license": "MIT",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.0",
+		"cloudinary": "^1.26.0",
+		"cookie-parser": "^1.4.5",
+		"cors": "^2.8.5",
+		"cryptr": "^6.0.2",
+		"express": "^4.17.1",
+		"express-validator": "^6.10.0",
+		"helmet": "^4.4.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongodb": "^3.6.5",
+		"mongoose": "^5.12.2",
+		"nodemon": "^2.0.7",
+		"randomstring": "^1.1.5",
+		"request-ip": "^2.1.3"
+	}
+}
